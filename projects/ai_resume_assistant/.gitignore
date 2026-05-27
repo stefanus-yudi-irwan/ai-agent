@@ -1,0 +1,5 @@
+*.yaml
+.venv
+__pycache__
+.env
+*.pdf

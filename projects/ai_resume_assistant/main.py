@@ -1,19 +1,26 @@
-import yaml
 from src.tool_registry import Tools
 from src.resume_ai import ResumeAI
 import gradio as gr
+from dotenv import load_dotenv
+import os
 
-with open("config/config.yaml", "r") as config_file:
-    config_app = yaml.safe_load(config_file)
+load_dotenv(override=True)
+NOTIFICATION_TOKEN = os.getenv("NOTIFICATION_TOKEN")
+NOTIFICATION_USER = os.getenv("NOTIFICATION_USER")
+NOTIFICATION_URL = os.getenv("NOTIFICATION_URL")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL")
+USER_NAME = os.getenv("USER_NAME")
+FILES_PATH = os.getenv("FILES_PATH")
 
-tool_engine = Tools(token = config_app["NOTIFICATION"]["TOKEN"],
-                    user = config_app["NOTIFICATION"]["USER"],
-                    url = config_app["NOTIFICATION"]["URL"])
+tool_engine = Tools(token = NOTIFICATION_TOKEN,
+                    user = NOTIFICATION_USER,
+                    url = NOTIFICATION_URL)
 
-resume_ai = ResumeAI(openai_api_key = config_app["OPENAI"]["API-KEY"],
-                    model = config_app["OPENAI"]["MODEL"],
-                    persona_name = config_app["USER"]["NAME"],
-                    files_path = config_app["FILES"]["PATH"],
+resume_ai = ResumeAI(openai_api_key = OPENAI_API_KEY,
+                    model = OPENAI_MODEL,
+                    persona_name = USER_NAME,
+                    files_path = FILES_PATH,
                     tools = tool_engine)
                     
 if __name__ == "__main__":

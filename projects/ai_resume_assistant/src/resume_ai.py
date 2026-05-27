@@ -1,6 +1,5 @@
 """Script for resume AI
 """
-from anyio.abc import AnyByteStream
 from openai import OpenAI
 import json
 from pypdf import PdfReader
