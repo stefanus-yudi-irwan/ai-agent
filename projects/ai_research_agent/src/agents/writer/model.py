@@ -1,4 +1,4 @@
-"""configuration for writer agent"""
+"""writer agent response format"""
 from pydantic import BaseModel, Field
 
 class ReportData(BaseModel):

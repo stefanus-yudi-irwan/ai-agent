@@ -7,3 +7,4 @@ class SMTPSenderConfig:
     smtp_server: str
     app_password: str
     sender_email: str
+    receiver_email: str
