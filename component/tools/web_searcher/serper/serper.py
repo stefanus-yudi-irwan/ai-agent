@@ -1,6 +1,6 @@
 """class to connect to serper websearch tool"""
 import requests
-from serper.serper_config import SerperWebSearchConfig
+from component.tools.web_searcher.serper.serper_config import SerperWebSearchConfig
 
 class SerperWebSearch:
     """web search tool using serper"""
