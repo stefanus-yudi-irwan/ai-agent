@@ -1,0 +1,1093 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic:
+          - generic:
+            - generic:
+              - button "Skip to main content" [ref=e14]
+              - button "Accessibility feedback" [ref=e17]
+        - generic [ref=e26]:
+          - button "Change appearance" [ref=e28]
+          - tooltip [aria-hidden] [ref=e31]: Change appearance
+      - generic [ref=e33]:
+        - button "Google apps" [ref=e37] [cursor=pointer]
+        - link "Sign in" [ref=e41] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B04%2BOctober%2Breturning%2B11%2BOctober&followup=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BNew%2BYork%2Bto%2BLondon%2Bleaving%2B04%2BOctober%2Breturning%2B11%2BOctober&ec=GAZAlQM
+  - generic [ref=e49]:
+    - generic [aria-hidden] [ref=e51]:
+      - generic [ref=e52]: Loading results
+      - progressbar [aria-hidden] [ref=e53]
+    - generic [ref=e58]:
+      - search [ref=e59]:
+        - heading "Flight search" [level=1] [ref=e60]
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - combobox "Change ticket type. Round trip" [ref=e67] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Round trip
+            - button "1 passenger, change number of passengers." [ref=e73]:
+              - generic [ref=e76]: "1"
+            - combobox "Change seating class. Economy" [ref=e86] [cursor=pointer]:
+              - generic [aria-hidden]:
+                - generic: Economy
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e95]:
+                - combobox "Where from?" [ref=e96]: New York
+                - generic [aria-hidden] [ref=e98]: New York
+              - button "Swap origin and destination." [ref=e103] [cursor=pointer]
+              - generic [ref=e111]:
+                - combobox "Where to?" [ref=e112]: London
+                - generic [aria-hidden] [ref=e114]: London
+            - generic [ref=e126]:
+              - generic [ref=e128]:
+                - textbox "Departure" [ref=e133]: Sun, Oct 4
+                - button [aria-hidden] [ref=e136]
+                - button [aria-hidden] [ref=e143]
+              - generic [ref=e150]:
+                - textbox "Return" [ref=e151]: Sun, Oct 11
+                - button [aria-hidden] [ref=e154]
+                - button [aria-hidden] [ref=e161]
+          - heading "Filters" [level=2] [ref=e167]
+          - generic [ref=e170]:
+            - button "All filters" [ref=e173]
+            - generic [ref=e181]:
+              - button "Stops, Not selected" [ref=e184]:
+                - generic [ref=e187]: Stops
+              - button "Airlines, Not selected" [ref=e194]:
+                - generic [ref=e197]: Airlines
+              - button "Bags, Not selected" [ref=e204]:
+                - generic [ref=e207]: Bags
+              - button "Price, Not selected" [ref=e214]:
+                - generic [ref=e217]: Price
+              - button "Times, Not selected" [ref=e224]:
+                - generic [ref=e227]: Times
+              - button "Emissions, Not selected" [ref=e234]:
+                - generic [ref=e237]: Emissions
+              - button "Connecting airports, Not selected" [ref=e244]:
+                - generic [ref=e247]: Connecting airports
+              - button "Duration, Not selected" [ref=e254]:
+                - generic [ref=e257]: Duration
+      - main [ref=e262]:
+        - heading "Search results" [level=2] [ref=e263]
+        - generic [ref=e264]: 35 results returned.
+        - generic [ref=e266]:
+          - tablist [ref=e267]:
+            - tab [selected] [ref=e268] [cursor=pointer]:
+              - generic [ref=e269]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e275]
+            - tab "Cheapest from Fetching results 11251184 Indonesian rupiahs Learn more about ranking" [ref=e279] [cursor=pointer]:
+              - generic [ref=e280]:
+                - text: Cheapest
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - text: from
+                    - generic [ref=e284]:
+                      - generic [ref=e285]:
+                        - generic [ref=e286]: Fetching results
+                        - progressbar [aria-hidden] [ref=e287]
+                      - text: IDR 11,251,184
+                  - button "Learn more about ranking" [ref=e306]
+          - tabpanel "BestLearn more about ranking" [ref=e310]:
+            - generic [ref=e311]:
+              - heading "Top departing flights" [level=3] [ref=e312]
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e318] [cursor=pointer]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e322]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e323] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e324]:
+                      - button "Passenger assistance" [ref=e325] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e330]:
+                  - generic [ref=e333]: Sorted by top flights
+              - list [ref=e336]:
+                - listitem [ref=e337]:
+                  - generic [ref=e338]:
+                    - link "From 11490424 Indonesian rupiahs round trip total. Nonstop flight with Norse Atlantic UK. Leaves John F. Kennedy International Airport at 6:20 PM on Sunday, October 4 and arrives at London Gatwick Airport at 6:20 AM on Monday, October 5. Total duration 7 hr. Select flight"
+                    - generic [ref=e340] [cursor=pointer]:
+                      - text: ·
+                      - 'generic "Departure time: 6:20 PM." [ref=e342]': 6:20 PM
+                      - generic [ref=e343]: JFK
+                      - 'generic "Arrival time: 6:20 AM on Monday, October 5." [ref=e345]':
+                        - text: 6:20 AM
+                        - generic [ref=e346]: "+1"
+                      - generic [ref=e347]: LGW
+                      - generic [ref=e349]: IDR 11,490,424
+                      - generic [ref=e351]: round trip
+                      - generic [ref=e352]:
+                        - generic [ref=e353]:
+                          - text: Nonstop
+                          - generic [ref=e354]: ·
+                          - text: 7 hr
+                          - generic [ref=e355]: ·
+                          - generic [ref=e357]: Norse Atlantic UK
+                        - generic [ref=e360]:
+                          - generic [aria-hidden] [ref=e361]: "-15% emissions"
+                          - 'button "Carbon emissions estimate: 358 kilograms. -15% emissions. Learn more about this emissions estimate" [ref=e362]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:20 PM on Sunday, October 4 and arrives at London Gatwick Airport at 6:20 AM on Monday, October 5." [ref=e367]
+                - listitem [ref=e372]:
+                  - generic [ref=e373]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 7:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:15 AM on Monday, October 5. Total duration 7 hr. Select flight"
+                    - generic [ref=e375] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:15 PM." [ref=e377]': 7:15 PM
+                      - generic [ref=e378]: EWR
+                      - 'generic "Arrival time: 7:15 AM on Monday, October 5." [ref=e380]':
+                        - text: 7:15 AM
+                        - generic [ref=e381]: "+1"
+                      - generic [ref=e382]: LHR
+                      - generic [ref=e384]: IDR 14,243,542
+                      - generic [ref=e386]: round trip
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - text: Nonstop
+                          - generic [ref=e389]: ·
+                          - text: 7 hr
+                          - generic [ref=e390]: ·
+                          - generic [ref=e392]:
+                            - text: United
+                            - generic [ref=e393]: ·
+                            - text: Brussels Airlines, Lufthansa
+                        - generic [ref=e396]:
+                          - generic [aria-hidden] [ref=e397]: Avg emissions
+                          - 'button "Carbon emissions estimate: 428 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e398]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 7:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:15 AM on Monday, October 5." [ref=e403]
+                - listitem [ref=e408]:
+                  - generic [ref=e409]:
+                    - link "From 15433554 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves Newark Liberty International Airport at 5:50 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:50 AM on Monday, October 5. Total duration 7 hr. Select flight"
+                    - generic [ref=e411] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 5:50 PM." [ref=e413]': 5:50 PM
+                      - generic [ref=e414]: EWR
+                      - 'generic "Arrival time: 5:50 AM on Monday, October 5." [ref=e416]':
+                        - text: 5:50 AM
+                        - generic [ref=e417]: "+1"
+                      - generic [ref=e418]: LHR
+                      - generic [ref=e420]: IDR 15,433,554
+                      - generic [ref=e422]: round trip
+                      - generic [ref=e423]:
+                        - generic [ref=e424]:
+                          - text: Nonstop
+                          - generic [ref=e425]: ·
+                          - text: 7 hr
+                          - generic [ref=e426]: ·
+                          - generic [ref=e428]:
+                            - text: British Airways
+                            - generic [ref=e429]: ·
+                            - text: American, Finnair, Iberia
+                        - generic [ref=e432]:
+                          - generic [aria-hidden] [ref=e433]: +6% emissions
+                          - 'button "Carbon emissions estimate: 447 kilograms. +6% emissions. Learn more about this emissions estimate" [ref=e434]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 5:50 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:50 AM on Monday, October 5." [ref=e439]
+            - generic [ref=e448]:
+              - heading "Price insights" [level=3] [ref=e449]
+              - generic [ref=e450] [cursor=pointer]:
+                - heading "Prices are currently high" [level=4] [ref=e455]
+                - generic [aria-hidden] [ref=e457]: View price history
+                - button "View price history" [ref=e459]
+            - region "Find the best price" [ref=e464]:
+              - generic [ref=e467]:
+                - heading "Track prices" [level=2] [ref=e470]
+                - button [ref=e474] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e475]
+                - generic [ref=e478]: Track prices from New York to London departing 2026-10-04 and returning 2026-10-11
+                - generic [ref=e479]:
+                  - generic [ref=e481] [cursor=pointer]: Oct 4 – 11
+                  - switch "Track prices from New York to London departing 2026-10-04 and returning 2026-10-11" [ref=e484] [cursor=pointer]
+                - generic [ref=e495]: Track prices from New York to London - Any dates
+                - generic [ref=e497]:
+                  - generic [aria-hidden] [ref=e498] [cursor=pointer]: Any dates
+                  - switch "Track prices from New York to London - Any dates" [ref=e501] [cursor=pointer]
+              - generic [ref=e514]:
+                - button "Date grid" [ref=e516]
+                - button "Price graph" [ref=e527]
+            - generic [ref=e540]:
+              - heading "Other departing flights" [level=3] [ref=e541]
+              - list [ref=e542]:
+                - listitem [ref=e543]:
+                  - generic [ref=e544]:
+                    - link "From 11251184 Indonesian rupiahs round trip total. 1 stop flight with Scandinavian Airlines. Operated by Sas Connect. Leaves Newark Liberty International Airport at 5:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:00 PM on Monday, October 5. Total duration 18 hr 40 min. Layover (1 of 1) is a 8 hr 10 min layover at Stockholm Arlanda Airport in Stockholm. Select flight"
+                    - generic [ref=e546] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 5:20 PM." [ref=e548]': 5:20 PM
+                      - generic [ref=e549]: EWR
+                      - 'generic "Arrival time: 5:00 PM on Monday, October 5." [ref=e551]':
+                        - text: 5:00 PM
+                        - generic [ref=e552]: "+1"
+                      - generic [ref=e553]: LHR
+                      - generic [ref=e555]: IDR 11,251,184
+                      - generic [ref=e557]: round trip
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - text: 1 stop
+                          - generic [ref=e564]: ·
+                          - text: 18 hr 40 min
+                          - generic [ref=e565]: ·
+                          - generic [ref=e567]:
+                            - text: Scandinavian Airlines
+                            - generic [ref=e568]: ·
+                            - text: Operated by Sas Connect
+                        - generic [ref=e571]:
+                          - generic [aria-hidden] [ref=e572]: +37% emissions
+                          - 'button "Carbon emissions estimate: 574 kilograms. +37% emissions. Learn more about this emissions estimate" [ref=e573]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 5:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:00 PM on Monday, October 5." [ref=e578]
+                - listitem [ref=e583]:
+                  - generic [ref=e584]:
+                    - link "From 13783275 Indonesian rupiahs round trip total. 1 stop flight with Aer Lingus. Leaves John F. Kennedy International Airport at 6:25 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:05 AM on Monday, October 5. Total duration 9 hr 40 min. Layover (1 of 1) is a 1 hr 30 min layover at Shannon Airport in Shannon. Select flight"
+                    - generic [ref=e586] [cursor=pointer]:
+                      - text: ·
+                      - 'generic "Departure time: 6:25 PM." [ref=e588]': 6:25 PM
+                      - generic [ref=e589]: JFK
+                      - 'generic "Arrival time: 9:05 AM on Monday, October 5." [ref=e591]':
+                        - text: 9:05 AM
+                        - generic [ref=e592]: "+1"
+                      - generic [ref=e593]: LHR
+                      - generic [ref=e595]: IDR 13,783,275
+                      - generic [ref=e597]: round trip
+                      - generic [ref=e598]:
+                        - generic [ref=e599]:
+                          - text: 1 stop
+                          - generic [ref=e600]: ·
+                          - text: 9 hr 40 min
+                          - generic [ref=e601]: ·
+                          - generic [ref=e603]: Aer Lingus
+                        - generic [ref=e606]:
+                          - generic [aria-hidden] [ref=e607]: +11% emissions
+                          - 'button "Carbon emissions estimate: 465 kilograms. +11% emissions. Learn more about this emissions estimate" [ref=e608]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:25 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:05 AM on Monday, October 5." [ref=e613]
+                - listitem [ref=e618]:
+                  - generic [ref=e619]:
+                    - link "From 13881058 Indonesian rupiahs round trip total. 1 stop flight with American and British Airways. Operated by Republic Airways as American Eagle. Leaves LaGuardia Airport at 8:33 AM on Sunday, October 4 and arrives at Heathrow Airport at 6:20 AM on Monday, October 5. Total duration 16 hr 47 min. Layover (1 of 1) is a 7 hr 55 min layover at Toronto Pearson International Airport in Toronto. Select flight"
+                    - generic [ref=e621] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:33 AM." [ref=e623]': 8:33 AM
+                      - generic [ref=e624]: LGA
+                      - 'generic "Arrival time: 6:20 AM on Monday, October 5." [ref=e626]':
+                        - text: 6:20 AM
+                        - generic [ref=e627]: "+1"
+                      - generic [ref=e628]: LHR
+                      - generic [ref=e630]: IDR 13,881,058
+                      - generic [ref=e632]: round trip
+                      - generic [ref=e633]:
+                        - generic [ref=e634]:
+                          - text: 1 stop
+                          - generic [ref=e639]: ·
+                          - text: 16 hr 47 min
+                          - generic [ref=e640]: ·
+                          - generic [ref=e642]:
+                            - text: American, British Airways
+                            - generic [ref=e643]: ·
+                            - text: Operated by Republic Airways as American Eagle
+                        - generic [ref=e646]:
+                          - generic [aria-hidden] [ref=e647]: Avg emissions
+                          - 'button "Carbon emissions estimate: 430 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e648]'
+                    - button "Flight details. Leaves LaGuardia Airport at 8:33 AM on Sunday, October 4 and arrives at Heathrow Airport at 6:20 AM on Monday, October 5." [ref=e653]
+                - listitem [ref=e658]:
+                  - generic [ref=e659]:
+                    - link "From 14034892 Indonesian rupiahs round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 9:35 AM on Sunday, October 4 and arrives at Heathrow Airport at 9:40 PM on Sunday, October 4. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e661] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:35 AM." [ref=e663]': 9:35 AM
+                      - generic [ref=e664]: JFK
+                      - 'generic "Arrival time: 9:40 PM." [ref=e666]': 9:40 PM
+                      - generic [ref=e667]: LHR
+                      - generic [ref=e669]: IDR 14,034,892
+                      - generic [ref=e671]: round trip
+                      - generic [ref=e672]:
+                        - generic [ref=e673]:
+                          - text: Nonstop
+                          - generic [ref=e674]: ·
+                          - text: 7 hr 5 min
+                          - generic [ref=e675]: ·
+                          - generic [ref=e677]:
+                            - text: American
+                            - generic [ref=e678]: ·
+                            - text: Iberia, Finnair, British Airways
+                        - generic [ref=e681]:
+                          - generic [aria-hidden] [ref=e682]: Avg emissions
+                          - 'button "Carbon emissions estimate: 415 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e683]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:35 AM on Sunday, October 4 and arrives at Heathrow Airport at 9:40 PM on Sunday, October 4." [ref=e688]
+                - listitem [ref=e693]:
+                  - generic [ref=e694]:
+                    - link "From 14034892 Indonesian rupiahs round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 6:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:25 AM on Monday, October 5. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e696] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 6:20 PM." [ref=e698]': 6:20 PM
+                      - generic [ref=e699]: JFK
+                      - 'generic "Arrival time: 6:25 AM on Monday, October 5." [ref=e701]':
+                        - text: 6:25 AM
+                        - generic [ref=e702]: "+1"
+                      - generic [ref=e703]: LHR
+                      - generic [ref=e705]: IDR 14,034,892
+                      - generic [ref=e707]: round trip
+                      - generic [ref=e708]:
+                        - generic [ref=e709]:
+                          - text: Nonstop
+                          - generic [ref=e710]: ·
+                          - text: 7 hr 5 min
+                          - generic [ref=e711]: ·
+                          - generic [ref=e713]:
+                            - text: American
+                            - generic [ref=e714]: ·
+                            - text: Iberia, Finnair, British Airways
+                        - generic [ref=e717]:
+                          - generic [aria-hidden] [ref=e718]: Avg emissions
+                          - 'button "Carbon emissions estimate: 415 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e719]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:25 AM on Monday, October 5." [ref=e724]
+                - listitem [ref=e729]:
+                  - generic [ref=e730]:
+                    - link "From 14034892 Indonesian rupiahs round trip total. Nonstop flight with American. Leaves John F. Kennedy International Airport at 7:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:20 AM on Monday, October 5. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e732] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:15 PM." [ref=e734]': 7:15 PM
+                      - generic [ref=e735]: JFK
+                      - 'generic "Arrival time: 7:20 AM on Monday, October 5." [ref=e737]':
+                        - text: 7:20 AM
+                        - generic [ref=e738]: "+1"
+                      - generic [ref=e739]: LHR
+                      - generic [ref=e741]: IDR 14,034,892
+                      - generic [ref=e743]: round trip
+                      - generic [ref=e744]:
+                        - generic [ref=e745]:
+                          - text: Nonstop
+                          - generic [ref=e746]: ·
+                          - text: 7 hr 5 min
+                          - generic [ref=e747]: ·
+                          - generic [ref=e749]:
+                            - text: American
+                            - generic [ref=e750]: ·
+                            - text: Iberia, Finnair, British Airways
+                        - generic [ref=e753]:
+                          - generic [aria-hidden] [ref=e754]: "-26% emissions"
+                          - 'button "Carbon emissions estimate: 312 kilograms. -26% emissions. Learn more about this emissions estimate" [ref=e755]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:20 AM on Monday, October 5." [ref=e760]
+                - listitem [ref=e765]:
+                  - generic [ref=e766]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 8:20 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:40 PM on Sunday, October 4. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e768] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:20 AM." [ref=e770]': 8:20 AM
+                      - generic [ref=e771]: EWR
+                      - 'generic "Arrival time: 8:40 PM." [ref=e773]': 8:40 PM
+                      - generic [ref=e774]: LHR
+                      - generic [ref=e776]: IDR 14,243,542
+                      - generic [ref=e778]: round trip
+                      - generic [ref=e779]:
+                        - generic [ref=e780]:
+                          - text: Nonstop
+                          - generic [ref=e781]: ·
+                          - text: 7 hr 20 min
+                          - generic [ref=e782]: ·
+                          - generic [ref=e784]:
+                            - text: United
+                            - generic [ref=e785]: ·
+                            - text: Austrian, Brussels Airlines, Lufthansa
+                        - generic [ref=e788]:
+                          - generic [aria-hidden] [ref=e789]: Avg emissions
+                          - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e790]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 8:20 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:40 PM on Sunday, October 4." [ref=e795]
+                - listitem [ref=e800]:
+                  - generic [ref=e801]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 9:30 AM on Sunday, October 4 and arrives at Heathrow Airport at 9:20 PM on Sunday, October 4. Total duration 6 hr 50 min. Select flight"
+                    - generic [ref=e803] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:30 AM." [ref=e805]': 9:30 AM
+                      - generic [ref=e806]: EWR
+                      - 'generic "Arrival time: 9:20 PM." [ref=e808]': 9:20 PM
+                      - generic [ref=e809]: LHR
+                      - generic [ref=e811]: IDR 14,243,542
+                      - generic [ref=e813]: round trip
+                      - generic [ref=e814]:
+                        - generic [ref=e815]:
+                          - text: Nonstop
+                          - generic [ref=e816]: ·
+                          - text: 6 hr 50 min
+                          - generic [ref=e817]: ·
+                          - generic [ref=e819]:
+                            - text: United
+                            - generic [ref=e820]: ·
+                            - text: Austrian, Brussels Airlines, Lufthansa
+                        - generic [ref=e823]:
+                          - generic [aria-hidden] [ref=e824]: "-25% emissions"
+                          - 'button "Carbon emissions estimate: 313 kilograms. -25% emissions. Learn more about this emissions estimate" [ref=e825]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:30 AM on Sunday, October 4 and arrives at Heathrow Airport at 9:20 PM on Sunday, October 4." [ref=e830]
+                - listitem [ref=e835]:
+                  - generic [ref=e836]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 5:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:55 AM on Monday, October 5. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e838] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 5:35 PM." [ref=e840]': 5:35 PM
+                      - generic [ref=e841]: EWR
+                      - 'generic "Arrival time: 5:55 AM on Monday, October 5." [ref=e843]':
+                        - text: 5:55 AM
+                        - generic [ref=e844]: "+1"
+                      - generic [ref=e845]: LHR
+                      - generic [ref=e847]: IDR 14,243,542
+                      - generic [ref=e849]: round trip
+                      - generic [ref=e850]:
+                        - generic [ref=e851]:
+                          - text: Nonstop
+                          - generic [ref=e852]: ·
+                          - text: 7 hr 20 min
+                          - generic [ref=e853]: ·
+                          - generic [ref=e855]:
+                            - text: United
+                            - generic [ref=e856]: ·
+                            - text: Austrian, Brussels Airlines, Lufthansa
+                        - generic [ref=e859]:
+                          - generic [aria-hidden] [ref=e860]: Avg emissions
+                          - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e861]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 5:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 5:55 AM on Monday, October 5." [ref=e866]
+                - listitem [ref=e871]:
+                  - generic [ref=e872]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 9:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:20 AM on Monday, October 5. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e874] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:00 PM." [ref=e876]': 9:00 PM
+                      - generic [ref=e877]: EWR
+                      - 'generic "Arrival time: 9:20 AM on Monday, October 5." [ref=e879]':
+                        - text: 9:20 AM
+                        - generic [ref=e880]: "+1"
+                      - generic [ref=e881]: LHR
+                      - generic [ref=e883]: IDR 14,243,542
+                      - generic [ref=e885]: round trip
+                      - generic [ref=e886]:
+                        - generic [ref=e887]:
+                          - text: Nonstop
+                          - generic [ref=e888]: ·
+                          - text: 7 hr 20 min
+                          - generic [ref=e889]: ·
+                          - generic [ref=e891]:
+                            - text: United
+                            - generic [ref=e892]: ·
+                            - text: Austrian, Brussels Airlines, Lufthansa
+                        - generic [ref=e895]:
+                          - generic [aria-hidden] [ref=e896]: Avg emissions
+                          - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e897]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:20 AM on Monday, October 5." [ref=e902]
+                - listitem [ref=e907]:
+                  - generic [ref=e908]:
+                    - link "From 14243542 Indonesian rupiahs round trip total. Nonstop flight with United. Leaves Newark Liberty International Airport at 10:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:25 AM on Monday, October 5. Total duration 7 hr 25 min. Select flight"
+                    - generic [ref=e910] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 10:00 PM." [ref=e912]': 10:00 PM
+                      - generic [ref=e913]: EWR
+                      - 'generic "Arrival time: 10:25 AM on Monday, October 5." [ref=e915]':
+                        - text: 10:25 AM
+                        - generic [ref=e916]: "+1"
+                      - generic [ref=e917]: LHR
+                      - generic [ref=e919]: IDR 14,243,542
+                      - generic [ref=e921]: round trip
+                      - generic [ref=e922]:
+                        - generic [ref=e923]:
+                          - text: Nonstop
+                          - generic [ref=e924]: ·
+                          - text: 7 hr 25 min
+                          - generic [ref=e925]: ·
+                          - generic [ref=e927]:
+                            - text: United
+                            - generic [ref=e928]: ·
+                            - text: Lufthansa, Austrian, Brussels Airlines
+                        - generic [ref=e931]:
+                          - generic [aria-hidden] [ref=e932]: Avg emissions
+                          - 'button "Carbon emissions estimate: 399 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e933]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 10:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:25 AM on Monday, October 5." [ref=e938]
+                - listitem [ref=e943]:
+                  - generic [ref=e944]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 7:50 AM on Sunday, October 4 and arrives at Heathrow Airport at 7:45 PM on Sunday, October 4. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e946] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:50 AM." [ref=e948]': 7:50 AM
+                      - generic [ref=e949]: JFK
+                      - 'generic "Arrival time: 7:45 PM." [ref=e951]': 7:45 PM
+                      - generic [ref=e952]: LHR
+                      - generic [ref=e954]: IDR 14,282,443
+                      - generic [ref=e956]: round trip
+                      - generic [ref=e957]:
+                        - generic [ref=e958]:
+                          - text: Nonstop
+                          - generic [ref=e959]: ·
+                          - text: 6 hr 55 min
+                          - generic [ref=e960]: ·
+                          - generic [ref=e962]:
+                            - text: British Airways
+                            - generic [ref=e963]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e966]:
+                          - generic [aria-hidden] [ref=e967]: Avg emissions
+                          - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e968]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:50 AM on Sunday, October 4 and arrives at Heathrow Airport at 7:45 PM on Sunday, October 4." [ref=e973]
+                - listitem [ref=e978]:
+                  - generic [ref=e979]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:40 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e981] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 6:30 PM." [ref=e983]': 6:30 PM
+                      - generic [ref=e984]: JFK
+                      - 'generic "Arrival time: 6:40 AM on Monday, October 5." [ref=e986]':
+                        - text: 6:40 AM
+                        - generic [ref=e987]: "+1"
+                      - generic [ref=e988]: LHR
+                      - generic [ref=e990]: IDR 14,282,443
+                      - generic [ref=e992]: round trip
+                      - generic [ref=e993]:
+                        - generic [ref=e994]:
+                          - text: Nonstop
+                          - generic [ref=e995]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e996]: ·
+                          - generic [ref=e998]:
+                            - text: British Airways
+                            - generic [ref=e999]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1002]:
+                          - generic [aria-hidden] [ref=e1003]: "-6% emissions"
+                          - 'button "Carbon emissions estimate: 394 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1004]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:40 AM on Monday, October 5." [ref=e1009]
+                - listitem [ref=e1014]:
+                  - generic [ref=e1015]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 6:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:50 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1017] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 6:40 PM." [ref=e1019]': 6:40 PM
+                      - generic [ref=e1020]: JFK
+                      - 'generic "Arrival time: 6:50 AM on Monday, October 5." [ref=e1022]':
+                        - text: 6:50 AM
+                        - generic [ref=e1023]: "+1"
+                      - generic [ref=e1024]: LHR
+                      - generic [ref=e1026]: IDR 14,282,443
+                      - generic [ref=e1028]: round trip
+                      - generic [ref=e1029]:
+                        - generic [ref=e1030]:
+                          - text: Nonstop
+                          - generic [ref=e1031]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1032]: ·
+                          - generic [ref=e1034]:
+                            - text: British Airways
+                            - generic [ref=e1035]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1038]:
+                          - generic [aria-hidden] [ref=e1039]: Avg emissions
+                          - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1040]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:50 AM on Monday, October 5." [ref=e1045]
+                - listitem [ref=e1050]:
+                  - generic [ref=e1051]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 7:10 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:20 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1053] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:10 PM." [ref=e1055]': 7:10 PM
+                      - generic [ref=e1056]: JFK
+                      - 'generic "Arrival time: 7:20 AM on Monday, October 5." [ref=e1058]':
+                        - text: 7:20 AM
+                        - generic [ref=e1059]: "+1"
+                      - generic [ref=e1060]: LHR
+                      - generic [ref=e1062]: IDR 14,282,443
+                      - generic [ref=e1064]: round trip
+                      - generic [ref=e1065]:
+                        - generic [ref=e1066]:
+                          - text: Nonstop
+                          - generic [ref=e1067]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1068]: ·
+                          - generic [ref=e1070]:
+                            - text: British Airways
+                            - generic [ref=e1071]: ·
+                            - text: American, Finnair
+                        - generic [ref=e1074]:
+                          - generic [aria-hidden] [ref=e1075]: "-6% emissions"
+                          - 'button "Carbon emissions estimate: 394 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1076]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:10 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:20 AM on Monday, October 5." [ref=e1081]
+                - listitem [ref=e1086]:
+                  - generic [ref=e1087]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 7:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:45 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1089] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:35 PM." [ref=e1091]': 7:35 PM
+                      - generic [ref=e1092]: JFK
+                      - 'generic "Arrival time: 7:45 AM on Monday, October 5." [ref=e1094]':
+                        - text: 7:45 AM
+                        - generic [ref=e1095]: "+1"
+                      - generic [ref=e1096]: LHR
+                      - generic [ref=e1098]: IDR 14,282,443
+                      - generic [ref=e1100]: round trip
+                      - generic [ref=e1101]:
+                        - generic [ref=e1102]:
+                          - text: Nonstop
+                          - generic [ref=e1103]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1104]: ·
+                          - generic [ref=e1106]:
+                            - text: British Airways
+                            - generic [ref=e1107]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1110]:
+                          - generic [aria-hidden] [ref=e1111]: Avg emissions
+                          - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1112]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:45 AM on Monday, October 5." [ref=e1117]
+                - listitem [ref=e1122]:
+                  - generic [ref=e1123]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 8:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:30 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1125] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:20 PM." [ref=e1127]': 8:20 PM
+                      - generic [ref=e1128]: JFK
+                      - 'generic "Arrival time: 8:30 AM on Monday, October 5." [ref=e1130]':
+                        - text: 8:30 AM
+                        - generic [ref=e1131]: "+1"
+                      - generic [ref=e1132]: LHR
+                      - generic [ref=e1134]: IDR 14,282,443
+                      - generic [ref=e1136]: round trip
+                      - generic [ref=e1137]:
+                        - generic [ref=e1138]:
+                          - text: Nonstop
+                          - generic [ref=e1139]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1140]: ·
+                          - generic [ref=e1142]:
+                            - text: British Airways
+                            - generic [ref=e1143]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1146]:
+                          - generic [aria-hidden] [ref=e1147]: "-6% emissions"
+                          - 'button "Carbon emissions estimate: 394 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1148]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:20 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:30 AM on Monday, October 5." [ref=e1153]
+                - listitem [ref=e1158]:
+                  - generic [ref=e1159]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 8:55 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:10 AM on Monday, October 5. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1161] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:55 PM." [ref=e1163]': 8:55 PM
+                      - generic [ref=e1164]: JFK
+                      - 'generic "Arrival time: 9:10 AM on Monday, October 5." [ref=e1166]':
+                        - text: 9:10 AM
+                        - generic [ref=e1167]: "+1"
+                      - generic [ref=e1168]: LHR
+                      - generic [ref=e1170]: IDR 14,282,443
+                      - generic [ref=e1172]: round trip
+                      - generic [ref=e1173]:
+                        - generic [ref=e1174]:
+                          - text: Nonstop
+                          - generic [ref=e1175]: ·
+                          - text: 7 hr 15 min
+                          - generic [ref=e1176]: ·
+                          - generic [ref=e1178]:
+                            - text: British Airways
+                            - generic [ref=e1179]: ·
+                            - text: American, Finnair, Iberia
+                        - generic [ref=e1182]:
+                          - generic [aria-hidden] [ref=e1183]: Avg emissions
+                          - 'button "Carbon emissions estimate: 433 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e1184]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:55 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:10 AM on Monday, October 5." [ref=e1189]
+                - listitem [ref=e1194]:
+                  - generic [ref=e1195]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 9:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:50 AM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1197] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:40 PM." [ref=e1199]': 9:40 PM
+                      - generic [ref=e1200]: JFK
+                      - 'generic "Arrival time: 9:50 AM on Monday, October 5." [ref=e1202]':
+                        - text: 9:50 AM
+                        - generic [ref=e1203]: "+1"
+                      - generic [ref=e1204]: LHR
+                      - generic [ref=e1206]: IDR 14,282,443
+                      - generic [ref=e1208]: round trip
+                      - generic [ref=e1209]:
+                        - generic [ref=e1210]:
+                          - text: Nonstop
+                          - generic [ref=e1211]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1212]: ·
+                          - generic [ref=e1214]:
+                            - text: British Airways
+                            - generic [ref=e1215]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1218]:
+                          - generic [aria-hidden] [ref=e1219]: "-6% emissions"
+                          - 'button "Carbon emissions estimate: 394 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e1220]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:50 AM on Monday, October 5." [ref=e1225]
+                - listitem [ref=e1230]:
+                  - generic [ref=e1231]:
+                    - link "From 14282443 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves John F. Kennedy International Airport at 10:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:35 AM on Monday, October 5. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e1233] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 10:40 PM." [ref=e1235]': 10:40 PM
+                      - generic [ref=e1236]: JFK
+                      - 'generic "Arrival time: 10:35 AM on Monday, October 5." [ref=e1238]':
+                        - text: 10:35 AM
+                        - generic [ref=e1239]: "+1"
+                      - generic [ref=e1240]: LHR
+                      - generic [ref=e1242]: IDR 14,282,443
+                      - generic [ref=e1244]: round trip
+                      - generic [ref=e1245]:
+                        - generic [ref=e1246]:
+                          - text: Nonstop
+                          - generic [ref=e1247]: ·
+                          - text: 6 hr 55 min
+                          - generic [ref=e1248]: ·
+                          - generic [ref=e1250]:
+                            - text: British Airways
+                            - generic [ref=e1251]: ·
+                            - text: American, Iberia, Finnair
+                        - generic [ref=e1254]:
+                          - generic [aria-hidden] [ref=e1255]: "-28% emissions"
+                          - 'button "Carbon emissions estimate: 304 kilograms. -28% emissions. Learn more about this emissions estimate" [ref=e1256]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 10:40 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:35 AM on Monday, October 5." [ref=e1261]
+                - listitem [ref=e1266]:
+                  - generic [ref=e1267]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 8:15 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:10 PM on Sunday, October 4. Total duration 6 hr 55 min. Select flight"
+                    - generic [ref=e1269] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:15 AM." [ref=e1271]': 8:15 AM
+                      - generic [ref=e1272]: JFK
+                      - 'generic "Arrival time: 8:10 PM." [ref=e1274]': 8:10 PM
+                      - generic [ref=e1275]: LHR
+                      - generic [ref=e1277]: IDR 14,397,378
+                      - generic [ref=e1279]: round trip
+                      - generic [ref=e1280]:
+                        - generic [ref=e1281]:
+                          - text: Nonstop
+                          - generic [ref=e1282]: ·
+                          - text: 6 hr 55 min
+                          - generic [ref=e1283]: ·
+                          - generic [ref=e1285]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1286]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1289]:
+                          - generic [aria-hidden] [ref=e1290]: "-11% emissions"
+                          - 'button "Carbon emissions estimate: 372 kilograms. -11% emissions. Learn more about this emissions estimate" [ref=e1291]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:15 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:10 PM on Sunday, October 4." [ref=e1296]
+                - listitem [ref=e1301]:
+                  - generic [ref=e1302]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 6:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:20 AM on Monday, October 5. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e1304] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 6:00 PM." [ref=e1306]': 6:00 PM
+                      - generic [ref=e1307]: JFK
+                      - 'generic "Arrival time: 6:20 AM on Monday, October 5." [ref=e1309]':
+                        - text: 6:20 AM
+                        - generic [ref=e1310]: "+1"
+                      - generic [ref=e1311]: LHR
+                      - generic [ref=e1313]: IDR 14,397,378
+                      - generic [ref=e1315]: round trip
+                      - generic [ref=e1316]:
+                        - generic [ref=e1317]:
+                          - text: Nonstop
+                          - generic [ref=e1318]: ·
+                          - text: 7 hr 20 min
+                          - generic [ref=e1319]: ·
+                          - generic [ref=e1321]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1322]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1325]:
+                          - generic [aria-hidden] [ref=e1326]: "-8% emissions"
+                          - 'button "Carbon emissions estimate: 385 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1327]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:20 AM on Monday, October 5." [ref=e1332]
+                - listitem [ref=e1337]:
+                  - generic [ref=e1338]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:45 AM on Monday, October 5. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1340] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 6:30 PM." [ref=e1342]': 6:30 PM
+                      - generic [ref=e1343]: JFK
+                      - 'generic "Arrival time: 6:45 AM on Monday, October 5." [ref=e1345]':
+                        - text: 6:45 AM
+                        - generic [ref=e1346]: "+1"
+                      - generic [ref=e1347]: LHR
+                      - generic [ref=e1349]: IDR 14,397,378
+                      - generic [ref=e1351]: round trip
+                      - generic [ref=e1352]:
+                        - generic [ref=e1353]:
+                          - text: Nonstop
+                          - generic [ref=e1354]: ·
+                          - text: 7 hr 15 min
+                          - generic [ref=e1355]: ·
+                          - generic [ref=e1357]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1358]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1361]:
+                          - generic [aria-hidden] [ref=e1362]: "-13% emissions"
+                          - 'button "Carbon emissions estimate: 367 kilograms. -13% emissions. Learn more about this emissions estimate" [ref=e1363]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 6:30 PM on Sunday, October 4 and arrives at Heathrow Airport at 6:45 AM on Monday, October 5." [ref=e1368]
+                - listitem [ref=e1373]:
+                  - generic [ref=e1374]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 7:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:15 AM on Monday, October 5. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1376] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 7:00 PM." [ref=e1378]': 7:00 PM
+                      - generic [ref=e1379]: JFK
+                      - 'generic "Arrival time: 7:15 AM on Monday, October 5." [ref=e1381]':
+                        - text: 7:15 AM
+                        - generic [ref=e1382]: "+1"
+                      - generic [ref=e1383]: LHR
+                      - generic [ref=e1385]: IDR 14,397,378
+                      - generic [ref=e1387]: round trip
+                      - generic [ref=e1388]:
+                        - generic [ref=e1389]:
+                          - text: Nonstop
+                          - generic [ref=e1390]: ·
+                          - text: 7 hr 15 min
+                          - generic [ref=e1391]: ·
+                          - generic [ref=e1393]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1394]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1397]:
+                          - generic [aria-hidden] [ref=e1398]: "-8% emissions"
+                          - 'button "Carbon emissions estimate: 385 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1399]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 7:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 7:15 AM on Monday, October 5." [ref=e1404]
+                - listitem [ref=e1409]:
+                  - generic [ref=e1410]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Delta. Leaves John F. Kennedy International Airport at 8:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:50 AM on Monday, October 5. Total duration 7 hr 35 min. Select flight"
+                    - generic [ref=e1412] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:15 PM." [ref=e1414]': 8:15 PM
+                      - generic [ref=e1415]: JFK
+                      - 'generic "Arrival time: 8:50 AM on Monday, October 5." [ref=e1417]':
+                        - text: 8:50 AM
+                        - generic [ref=e1418]: "+1"
+                      - generic [ref=e1419]: LHR
+                      - generic [ref=e1421]: IDR 14,397,378
+                      - generic [ref=e1423]: round trip
+                      - generic [ref=e1424]:
+                        - generic [ref=e1425]:
+                          - text: Nonstop
+                          - generic [ref=e1426]: ·
+                          - text: 7 hr 35 min
+                          - generic [ref=e1427]: ·
+                          - generic [ref=e1429]:
+                            - text: Delta
+                            - generic [ref=e1430]: ·
+                            - text: KLM, Virgin Atlantic
+                        - generic [ref=e1433]:
+                          - generic [aria-hidden] [ref=e1434]: +6% emissions
+                          - 'button "Carbon emissions estimate: 445 kilograms. +6% emissions. Learn more about this emissions estimate" [ref=e1435]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:15 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:50 AM on Monday, October 5." [ref=e1440]
+                - listitem [ref=e1445]:
+                  - generic [ref=e1446]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 8:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:50 AM on Monday, October 5. Total duration 7 hr 15 min. Select flight"
+                    - generic [ref=e1448] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 8:35 PM." [ref=e1450]': 8:35 PM
+                      - generic [ref=e1451]: JFK
+                      - 'generic "Arrival time: 8:50 AM on Monday, October 5." [ref=e1453]':
+                        - text: 8:50 AM
+                        - generic [ref=e1454]: "+1"
+                      - generic [ref=e1455]: LHR
+                      - generic [ref=e1457]: IDR 14,397,378
+                      - generic [ref=e1459]: round trip
+                      - generic [ref=e1460]:
+                        - generic [ref=e1461]:
+                          - text: Nonstop
+                          - generic [ref=e1462]: ·
+                          - text: 7 hr 15 min
+                          - generic [ref=e1463]: ·
+                          - generic [ref=e1465]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1466]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1469]:
+                          - generic [aria-hidden] [ref=e1470]: "-8% emissions"
+                          - 'button "Carbon emissions estimate: 385 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1471]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:35 PM on Sunday, October 4 and arrives at Heathrow Airport at 8:50 AM on Monday, October 5." [ref=e1476]
+                - listitem [ref=e1481]:
+                  - generic [ref=e1482]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Delta. Leaves John F. Kennedy International Airport at 10:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:20 AM on Monday, October 5. Total duration 7 hr 20 min. Select flight"
+                    - generic [ref=e1484] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 10:00 PM." [ref=e1486]': 10:00 PM
+                      - generic [ref=e1487]: JFK
+                      - 'generic "Arrival time: 10:20 AM on Monday, October 5." [ref=e1489]':
+                        - text: 10:20 AM
+                        - generic [ref=e1490]: "+1"
+                      - generic [ref=e1491]: LHR
+                      - generic [ref=e1493]: IDR 14,397,378
+                      - generic [ref=e1495]: round trip
+                      - generic [ref=e1496]:
+                        - generic [ref=e1497]:
+                          - text: Nonstop
+                          - generic [ref=e1498]: ·
+                          - text: 7 hr 20 min
+                          - generic [ref=e1499]: ·
+                          - generic [ref=e1501]:
+                            - text: Delta
+                            - generic [ref=e1502]: ·
+                            - text: KLM, Virgin Atlantic
+                        - generic [ref=e1505]:
+                          - generic [aria-hidden] [ref=e1506]: "-15% emissions"
+                          - 'button "Carbon emissions estimate: 356 kilograms. -15% emissions. Learn more about this emissions estimate" [ref=e1507]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 10:00 PM on Sunday, October 4 and arrives at Heathrow Airport at 10:20 AM on Monday, October 5." [ref=e1512]
+                - listitem [ref=e1517]:
+                  - generic [ref=e1518]:
+                    - link "From 14397378 Indonesian rupiahs round trip total. Nonstop flight with Virgin Atlantic. Leaves John F. Kennedy International Airport at 11:55 PM on Sunday, October 4 and arrives at Heathrow Airport at 12:05 PM on Monday, October 5. Total duration 7 hr 10 min. Select flight"
+                    - generic [ref=e1520] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 11:55 PM." [ref=e1522]': 11:55 PM
+                      - generic [ref=e1523]: JFK
+                      - 'generic "Arrival time: 12:05 PM on Monday, October 5." [ref=e1525]':
+                        - text: 12:05 PM
+                        - generic [ref=e1526]: "+1"
+                      - generic [ref=e1527]: LHR
+                      - generic [ref=e1529]: IDR 14,397,378
+                      - generic [ref=e1531]: round trip
+                      - generic [ref=e1532]:
+                        - generic [ref=e1533]:
+                          - text: Nonstop
+                          - generic [ref=e1534]: ·
+                          - text: 7 hr 10 min
+                          - generic [ref=e1535]: ·
+                          - generic [ref=e1537]:
+                            - text: Virgin Atlantic
+                            - generic [ref=e1538]: ·
+                            - text: Air France, Delta, KLM
+                        - generic [ref=e1541]:
+                          - generic [aria-hidden] [ref=e1542]: "-8% emissions"
+                          - 'button "Carbon emissions estimate: 385 kilograms. -8% emissions. Learn more about this emissions estimate" [ref=e1543]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 11:55 PM on Sunday, October 4 and arrives at Heathrow Airport at 12:05 PM on Monday, October 5." [ref=e1548]
+                - listitem [ref=e1553]:
+                  - generic [ref=e1554]:
+                    - link "From 14514080 Indonesian rupiahs round trip total. Nonstop flight with JetBlue. Leaves John F. Kennedy International Airport at 8:45 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:45 PM on Sunday, October 4. Total duration 7 hr. Select flight"
+                    - generic [ref=e1556] [cursor=pointer]:
+                      - text: ·
+                      - 'generic "Departure time: 8:45 AM." [ref=e1558]': 8:45 AM
+                      - generic [ref=e1559]: JFK
+                      - 'generic "Arrival time: 8:45 PM." [ref=e1561]': 8:45 PM
+                      - generic [ref=e1562]: LHR
+                      - generic [ref=e1564]: IDR 14,514,080
+                      - generic [ref=e1566]: round trip
+                      - generic [ref=e1567]:
+                        - generic [ref=e1568]:
+                          - text: Nonstop
+                          - generic [ref=e1569]: ·
+                          - text: 7 hr
+                          - generic [ref=e1570]: ·
+                          - generic [ref=e1572]: JetBlue
+                        - generic [ref=e1575]:
+                          - generic [aria-hidden] [ref=e1576]: +40% emissions
+                          - 'button "Carbon emissions estimate: 590 kilograms. +40% emissions. Learn more about this emissions estimate" [ref=e1577]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 8:45 AM on Sunday, October 4 and arrives at Heathrow Airport at 8:45 PM on Sunday, October 4." [ref=e1582]
+                - listitem [ref=e1587]:
+                  - generic [ref=e1588]:
+                    - link "From 14514080 Indonesian rupiahs round trip total. Nonstop flight with JetBlue. Leaves John F. Kennedy International Airport at 9:03 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:30 AM on Monday, October 5. Total duration 7 hr 27 min. Select flight"
+                    - generic [ref=e1590] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:03 PM." [ref=e1592]': 9:03 PM
+                      - generic [ref=e1593]: JFK
+                      - 'generic "Arrival time: 9:30 AM on Monday, October 5." [ref=e1595]':
+                        - text: 9:30 AM
+                        - generic [ref=e1596]: "+1"
+                      - generic [ref=e1597]: LHR
+                      - generic [ref=e1599]: IDR 14,514,080
+                      - generic [ref=e1601]: round trip
+                      - generic [ref=e1602]:
+                        - generic [ref=e1603]:
+                          - text: Nonstop
+                          - generic [ref=e1604]: ·
+                          - text: 7 hr 27 min
+                          - generic [ref=e1605]: ·
+                          - generic [ref=e1607]:
+                            - text: JetBlue
+                            - generic [ref=e1608]: ·
+                            - text: Tap Air Portugal
+                        - generic [ref=e1611]:
+                          - generic [aria-hidden] [ref=e1612]: +40% emissions
+                          - 'button "Carbon emissions estimate: 590 kilograms. +40% emissions. Learn more about this emissions estimate" [ref=e1613]'
+                    - button "Flight details. Leaves John F. Kennedy International Airport at 9:03 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:30 AM on Monday, October 5." [ref=e1618]
+                - listitem [ref=e1623]:
+                  - generic [ref=e1624]:
+                    - link "From 15085215 Indonesian rupiahs round trip total. 1 stop flight with SWISS. Operated by Helvetic. Leaves Newark Liberty International Airport at 9:45 PM on Sunday, October 4 and arrives at London City Airport at 5:25 PM on Monday, October 5. Total duration 14 hr 40 min. Layover (1 of 1) is a 5 hr 20 min layover at Zurich Airport in Zürich. Select flight"
+                    - generic [ref=e1626] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:45 PM." [ref=e1628]': 9:45 PM
+                      - generic [ref=e1629]: EWR
+                      - 'generic "Arrival time: 5:25 PM on Monday, October 5." [ref=e1631]':
+                        - text: 5:25 PM
+                        - generic [ref=e1632]: "+1"
+                      - generic [ref=e1633]: LCY
+                      - generic [ref=e1635]: IDR 15,085,215
+                      - generic [ref=e1637]: round trip
+                      - generic [ref=e1638]:
+                        - generic [ref=e1639]:
+                          - text: 1 stop
+                          - generic [ref=e1644]: ·
+                          - text: 14 hr 40 min
+                          - generic [ref=e1645]: ·
+                          - generic [ref=e1647]:
+                            - text: SWISS
+                            - generic [ref=e1648]: ·
+                            - text: Operated by Helvetic
+                        - generic [ref=e1651]:
+                          - generic [aria-hidden] [ref=e1652]: +7% emissions
+                          - 'button "Carbon emissions estimate: 449 kilograms. +7% emissions. Learn more about this emissions estimate" [ref=e1653]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:45 PM on Sunday, October 4 and arrives at London City Airport at 5:25 PM on Monday, October 5." [ref=e1658]
+                - listitem [ref=e1663]:
+                  - generic [ref=e1664]:
+                    - link "From 15433554 Indonesian rupiahs round trip total. Nonstop flight with British Airways. Leaves Newark Liberty International Airport at 9:25 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:30 AM on Monday, October 5. Total duration 7 hr 5 min. Select flight"
+                    - generic [ref=e1666] [cursor=pointer]:
+                      - text: · ·
+                      - 'generic "Departure time: 9:25 PM." [ref=e1668]': 9:25 PM
+                      - generic [ref=e1669]: EWR
+                      - 'generic "Arrival time: 9:30 AM on Monday, October 5." [ref=e1671]':
+                        - text: 9:30 AM
+                        - generic [ref=e1672]: "+1"
+                      - generic [ref=e1673]: LHR
+                      - generic [ref=e1675]: IDR 15,433,554
+                      - generic [ref=e1677]: round trip
+                      - generic [ref=e1678]:
+                        - generic [ref=e1679]:
+                          - text: Nonstop
+                          - generic [ref=e1680]: ·
+                          - text: 7 hr 5 min
+                          - generic [ref=e1681]: ·
+                          - generic [ref=e1683]:
+                            - text: British Airways
+                            - generic [ref=e1684]: ·
+                            - text: American, Finnair, Iberia
+                        - generic [ref=e1687]:
+                          - generic [aria-hidden] [ref=e1688]: "-25% emissions"
+                          - 'button "Carbon emissions estimate: 314 kilograms. -25% emissions. Learn more about this emissions estimate" [ref=e1689]'
+                    - button "Flight details. Leaves Newark Liberty International Airport at 9:25 PM on Sunday, October 4 and arrives at Heathrow Airport at 9:30 AM on Monday, October 5." [ref=e1694]
+                - listitem [ref=e1699]:
+                  - generic [ref=e1700] [cursor=pointer]:
+                    - button "View more flights" [ref=e1703]
+                    - generic [aria-hidden] [ref=e1706]: View more flights
+          - text: · ·· · · ·· · · · ·· · · · ·· · · ·· · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · · ·· · · ·· · · ·· · · · ·· · · · ·· ·
+      - contentinfo [ref=e1709]:
+        - generic [ref=e1711]:
+          - button "Language·English (United States)" [ref=e1712]
+          - button "Location·Indonesia" [ref=e1718]
+          - button "Currency IDR" [ref=e1725]:
+            - generic [aria-hidden] [ref=e1738]: Currency·IDR
+        - generic [ref=e1739]:
+          - link "About Google Travel" [ref=e1740] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1741] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1742] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1743] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1744] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1745] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1747]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1748] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=ID
+            - text: Learn more
