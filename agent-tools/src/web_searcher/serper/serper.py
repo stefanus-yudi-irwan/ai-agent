@@ -1,11 +1,14 @@
 """class to connect to serper websearch tool"""
 import requests
-from component.tools.web_searcher.serper.serper_config import SerperWebSearchConfig
+from loguru import logger
+from .serper_config import SerperWebSearchConfig
+
+class SerperWebSearchError(Exception):
+    """Raise when a Serper web search fails."""
 
 class SerperWebSearch:
     """web search tool using serper"""
-    def __init__(self, 
-                 config: SerperWebSearchConfig) -> None:
+    def __init__(self, config: SerperWebSearchConfig) -> None:
         self.config = config
         self.headers = {
             'X-API-KEY': self.config.api_key,
@@ -41,5 +44,22 @@ class SerperWebSearch:
 
             return "\n\n".join(snippets) if snippets else "No results found."
 
-        except Exception as e:
-            return f"Error executing search: {str(e)}"
+        except requests.exceptions.Timeout as e:
+            error = SerperWebSearchError("request to serper API timed out")
+            logger.error(f"{type(error).__name__}: {error}")
+            raise error from e
+
+        except requests.exceptions.ConnectionError as e:
+            error = SerperWebSearchError("could not connect to serper API")
+            logger.error(f"{type(error).__name__}: {error}")
+            raise error from e
+
+        except requests.exceptions.HTTPError as e:
+            error = SerperWebSearchError(f"serper API retured HTTP {e.response.status_code}")
+            logger.error(f"{type(error).__name__}: {error}")
+            raise error from e
+
+        except requests.exceptions.JSONDecodeError as e:
+            error = SerperWebSearchError("serper API returned an invalid JSON response")
+            logger.error(f"{type(error).__name__}: {error}")
+            raise error from e

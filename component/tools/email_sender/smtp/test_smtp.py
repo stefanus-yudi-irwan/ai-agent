@@ -2,8 +2,8 @@
 from email.message import EmailMessage
 from unittest import TestCase
 from unittest.mock import MagicMock, patch
-from .smtp import SMTPEmailSender
-from .smtp_config import SMTPSenderConfig
+from smtp.smtp import SMTPEmailSender
+from smtp.smtp_config import SMTPSenderConfig
 
 class TestSMTPEmailSender(TestCase):
     """test suite for SMTP email sender"""

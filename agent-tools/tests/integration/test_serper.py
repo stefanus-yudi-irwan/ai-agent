@@ -1,13 +1,13 @@
-"""test for serper web search tool"""
+"""unit test for serper packages"""
 import os
 from unittest import TestCase
 from dotenv import load_dotenv
-from serper.serper_config import SerperWebSearchConfig
-from serper.serper import SerperWebSearch
+from web_searcher.serper import SerperWebSearchConfig
+from web_searcher.serper import SerperWebSearch
 
 load_dotenv(override=True)
 
-class TestSerperWebSearch(TestCase):
+class IntegrationTestSerperWebSearch(TestCase):
     """test suite for serper web search"""
 
     def setUp(self) -> None:
@@ -21,3 +21,9 @@ class TestSerperWebSearch(TestCase):
         self.serper = SerperWebSearch(
             config=self.config
         )
+
+    def test_search_in_web(self) -> None:
+        """test method search in web"""
+        search_result = self.serper.search_in_web(message="The most demanding skill in 2027")
+        self.assertIsNotNone(search_result)
+        print(search_result)

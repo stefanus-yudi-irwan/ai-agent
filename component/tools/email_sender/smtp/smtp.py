@@ -1,7 +1,7 @@
 """class to sent email via smtp"""
 import smtplib
 from email.message import EmailMessage
-from .smtp_config import SMTPSenderConfig
+from smtp.smtp_config import SMTPSenderConfig
 
 class SMTPEmailSender:
     """class to send email using smtp"""
