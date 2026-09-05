@@ -55,7 +55,7 @@ class SerperWebSearch:
             raise error from e
 
         except requests.exceptions.HTTPError as e:
-            error = SerperWebSearchError(f"serper API retured HTTP {e.response.status_code}")
+            error = SerperWebSearchError(f"serper API returned HTTP {e.response.status_code}")
             logger.error(f"{type(error).__name__}: {error}")
             raise error from e
 

@@ -1,4 +1,4 @@
-"""unit test for serper packages"""
+"""integration test for serper packages"""
 import os
 from unittest import TestCase
 from dotenv import load_dotenv
