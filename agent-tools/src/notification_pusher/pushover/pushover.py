@@ -25,8 +25,8 @@ class PushOverClient:
             ValueError: if notification message is empty string
         """
         if not message.strip():
-            error = ValueError("notification message cannot be empty")
-            logger.error(f"{type(error).__name__}: ")
+            error = PushOverClientError("notification message cannot be empty")
+            logger.error(f"{type(error).__name__}: {error}")
             raise error
 
         notification_data: dict[str, str | int] = {
