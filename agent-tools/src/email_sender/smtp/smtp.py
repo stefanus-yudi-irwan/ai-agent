@@ -16,13 +16,17 @@ class SMTPEmailSender:
                    to: str,
                    subject: str,
                    text_body: str,
-                   html_body: str) -> None:
+                   html_body: str) -> bool:
         """method to send email
         Args:
             to (str): email address recipient
             subject (str): email subject
             text_body (str): body text of the email in string
             html_body (str): body text of the email using html
+        Returns: 
+            bool: True if the email was successfully accepted by the SMTP server. 
+        Raises: 
+            SMTPEmailSenderError: If an SMTP error occurs.
         """
         email = EmailMessage()
         email["From"] = self.config.sender_email
@@ -36,6 +40,7 @@ class SMTPEmailSender:
                 server.starttls()
                 server.login(self.config.sender_email, self.config.app_password)
                 server.send_message(email)
+            return True
 
         except smtplib.SMTPAuthenticationError as e:
             error = SMTPEmailSenderError("SMTP authentication failed.")
